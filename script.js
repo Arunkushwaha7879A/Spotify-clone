@@ -101,14 +101,14 @@ async function main() {
         document.querySelector(".circle").style.left=(currentsong.currentTime/currentsong.duration)*100 + "%";
     })
 
-    document.querySelector(".seekbar").addEventListener("click" ,  e=>{
-     document.querySelector(".circle").style.circle.left=(e.offsetX/e.target.getBoundingClientRect().width)*100
-    })
-}
+//     document.querySelector(".seekbar").addEventListener("click" ,  e=>{
+//      document.querySelector(".circle").style.circle.left=(e.offsetX/e.target.getBoundingClientRect().width)*100
+//     })
+// }
 
 
 
 
 
 
-main() 
+// main() 
